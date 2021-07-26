@@ -42,7 +42,12 @@ this.UserToBot = this.UserToBot.bind(this)
   QA(question){
     switch (question) {
       case 'Hi':
-        return "Hello";
+      case 'hi':
+      case 'Hello':
+      case 'hello':
+      case 'Hey':
+      case 'hey':
+        return "Hello there, i am an AI bot programmed to help student. How can i assist you.";
         break;
     
       default:
