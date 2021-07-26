@@ -25,9 +25,16 @@ this.UserToBot = this.UserToBot.bind(this)
   UserToBot() {
     //console.log(this.state.message);
     var div = document.createElement('div');
+    var b = document.createElement('b');
     div.setAttribute("class", "usermessage");
-    div.innerHTML =this.state.message;
+    b.innerHTML =this.state.message;
+    var img = document.createElement('img');
+    img.src = 'images/user.png';
+    div.append(img);
+    div.append(b);
+
     document.getElementById('message-area').append(div);
+
     this.setState({
       message:""
     });
@@ -35,7 +42,12 @@ this.UserToBot = this.UserToBot.bind(this)
     var reply = document.createElement('div');
     reply.setAttribute("class", "botmessage");
     reply.innerHTML =this.QA(this.state.message);
+    var img = document.createElement('img');
+    img.src = 'images/bot.png';
+    reply.append(img);
     document.getElementById('message-area').append(reply);
+    
+
     document.getElementById('message-area').scrollTo(0,document.getElementById('message-area').scrollHeight);
   }
 
@@ -93,8 +105,8 @@ this.UserToBot = this.UserToBot.bind(this)
        
          <div className="message-area" id="message-area">
 
-           <div className="usermessage">Hi</div>
-           <div className="botmessage">Hello</div>
+           {/* <div className="usermessage">Hi</div>
+           <div className="botmessage">Hello</div> */}
 
          </div>
          

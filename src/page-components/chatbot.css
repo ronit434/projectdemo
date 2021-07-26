@@ -37,20 +37,29 @@ overflow-y: scroll;
     color: cornsilk;
 }
 .usermessage{
-    border:2px red solid;
+    border:1px rgb(0, 0, 0) solid;
     margin:10px;
-    padding:10px;
-    background-color: rgba(153, 205, 50, 0.678);
-    border-radius: 20px;
+    padding:5px;
+    background-color: rgba(160, 163, 154, 0.678);
+    border-radius: 5px;
     font-weight: 800;
 }
 .botmessage{
-    border:2px rgb(51, 255, 0) solid;
+    border:1px rgb(0, 0, 0) solid;
     margin:10px;
-    padding:10px;
-    background-color: rgba(155, 147, 33, 0.233);
-    border-radius: 20px;
+    padding:5px;
+    background-color: rgba(168, 157, 157, 0.856);
+    border-radius: 5px;
     font-weight: 800;
     text-align: right;
-    color:blue;
+    color:black;
+}
+img{
+    height: 30px;
+    width: 30px;
+    border-radius: 25%;
+    
+}
+b{
+    margin-left:10px;
 }
