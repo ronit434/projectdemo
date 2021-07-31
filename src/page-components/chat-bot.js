@@ -24,7 +24,8 @@ this.UserToBot = this.UserToBot.bind(this)
       message: newValue
       
     });
-    console.log('1',event.target.value);
+    console.log(event.target)
+    console.log('1',newValue);
   }
   
   handleChange2(val) {
@@ -126,8 +127,9 @@ this.UserToBot = this.UserToBot.bind(this)
          </div>
          
          {/* <input className="chat-input" value={this.state.message} onChange={this.handleChange}/> */}
+         <Example className="chat-input" msg={this.state.message} func={this.handleChange} func2={this.handleChange2}></Example>
          <button className="chat-button" onClick={this.UserToBot}>Send</button>
-         <Example msg={this.state.message} func={this.handleChange} func2={this.handleChange2}></Example>
+        
   
           
         </div>

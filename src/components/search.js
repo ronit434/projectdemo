@@ -1,5 +1,6 @@
 import React from 'react';
 import Autosuggest from 'react-autosuggest';
+import './label.css';
 
 // Imagine you have a list of languages that you'd like to autosuggest.
 const languages = [
@@ -89,7 +90,7 @@ class Example extends React.Component {
 
     // Autosuggest will pass through all these props to the input.
     const inputProps = {
-      placeholder: 'Type a programming language',
+      placeholder: 'Type a message, suggestion will appear accrodingly',
       value,
       onChange: this.onChange,
       
@@ -99,6 +100,7 @@ class Example extends React.Component {
     return (
       
       <Autosuggest
+     
         suggestions={suggestions}
         onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
         onSuggestionsClearRequested={this.onSuggestionsClearRequested}
