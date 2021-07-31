@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import "./chatbot.css"
+import "../components/search"
+import Example from '../components/search';
 
 
 class ChatBot extends Component{
   constructor(props) {
     super(props);
      // Set initial state 
-     this.state = {message : '', reply:""} 
+     this.state = {message : undefined, reply:""} 
     
 // Binding this keyword 
 this.handleChange = this.handleChange.bind(this) 
@@ -15,12 +17,25 @@ this.UserToBot = this.UserToBot.bind(this)
   }
  
     
-  handleChange(event) {
+  handleChange(event, { newValue }) {
     //console.log(event.target.value)
 
     this.setState({
-      message: event.target.value
+      message: newValue
+      
     });
+    console.log('1',event.target.value);
+  }
+  
+  handleChange2(val) {
+    console.log('2', val)
+    // if(val){
+    //   this.setState({
+    //     message:""
+    //   });
+    // }
+    
+  
   }
   UserToBot() {
     //console.log(this.state.message);
@@ -110,8 +125,9 @@ this.UserToBot = this.UserToBot.bind(this)
 
          </div>
          
-         <input className="chat-input" value={this.state.message} onChange={this.handleChange}/>
+         {/* <input className="chat-input" value={this.state.message} onChange={this.handleChange}/> */}
          <button className="chat-button" onClick={this.UserToBot}>Send</button>
+         <Example msg={this.state.message} func={this.handleChange} func2={this.handleChange2}></Example>
   
           
         </div>
