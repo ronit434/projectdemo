@@ -95,15 +95,40 @@ this.UserToBot = this.UserToBot.bind(this)
           case 'How can I consult with my program advisor? how to contact them?':
             return "You can arrange a face-to-face or online consultation with your program advisor by emailing them on ProgramAdvisor@uon.edu.au.";
             break;
-            case 'I lost my student card? How can I get new card?':
-              return "Sorry to hear that. But you don’t need to worry. You can get new student card from student services centre by showing them e-card from your my uon app. ";
-              break;
-              case 'Where is the library? ':
-                return "There are 2 libraries in university, which one you are looking for? Hunter library and auchmuty library. Here is the location map navigate to nearest library.";
-                break;
-                case 'Is there any university doctor available for consulting my health?':
-                  return "University doctors are in student services centre near commonwealth bank. You can either book an appointment or can check for walk-in appointments. Please bring your student card at the time of consultation. ";
-                  break;
+          case 'I lost my student card? How can I get new card?':
+            return "Sorry to hear that. But you don’t need to worry. You can get new student card from student services centre by showing them e-card from your my uon app. ";
+            break;
+          case 'Where is the library?':
+            return "There are 2 libraries in university, which one you are looking for? Hunter library and auchmuty library. Here is the location map navigate to nearest library.";
+            break;
+          case 'Is there any university doctor available for consulting my health?':
+            return "University doctors are in student services centre near commonwealth bank. You can either book an appointment or can check for walk-in appointments. Please bring your student card at the time of consultation. ";
+            break;
+          case 'I cannot afford my university fees? Is there any scholarship or university help available?':
+          return 'Yes there are plenty of scholarships available you can apply through university scholarship website.';
+          break;
+          case ' How do I apply for scholarships?':
+          return 'Information on all available scholarships offered by the University of Newcastle for enabling, undergraduate and postgraduate course work students can be found on the Scholarships website.';
+          break;
+          case 'How do I apply for an Opal Concession card and Transport Entitlement Card?':
+          return 'Opal Concession cards are only available directly via OPAL and cannot be purchased or collected from a retail outlet. https://transportnsw.info/tickets-opal/opal';
+          break;
+          case 'What support services does the University offer for students?':
+          return 'There is a wide range of student support services available to help students transition to university and get the most out of their study. Our support services can provide you with assistance in the areas like: Health and Wellbeing, Meeting the Costs of Study, Program Advice, Student Life on Campus, Tools for Success and Other Topics (student living, chaplaincy, counselling, disability support, careers service etc)';
+          break;
+          case 'My classes finish when it is dark, are there any extra safety precautions I can take when heading home?':
+          return 'Our campuses and facilities are safe places to visit, study and work, however everyone should be vigilant, especially when on campus after dark. the Security Shuttle runs an after hours service, where from 6:30pm to midnight, the Security Shuttle will take passengers to locations on campus, and in surrounding suburbs.';
+          break;
+          case 'How to arrange security shuttle pickup?':
+          return 'To arrange a pick up, please call 4921 5888, then press 2. The Security shuttle is also available at Ourimbah from 5pm - 10pm. To arrange pick up, call 4921 5888, then press 3. ';
+          break;
+          case 'How do I find out what events are happening on campus?':
+          return 'Student Central puts on lots of fun events on campus, including movie screenings, bar activities and free live entertainment each Tuesday, Wednesday and Thursday at lunchtime. The free entertainment is usually staged in either the Derkenne Courtyard,  Auchmuty Courtyard or Bar on the Hill and NUspace.';
+          break;
+          case 'How do I apply to waive my student visa application fee due to COVID-19?':
+          return 'The Department of Home Affairs (DHA) may consider waiving your visa application fee if you extend your student visa due to the impact of COVID-19. Please see criteria DHA have listed for consideration. If you meet the criteria, on application for your COE you can request the 1545 COVID-19 impacted student form. If you have already been issued your COE send an email to studentadvice@newcastle.edu.au.';
+          break;
+         
       default:
         return "Sorry I couldn't understand.";
         break;

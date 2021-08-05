@@ -5,14 +5,59 @@ import './label.css';
 // Imagine you have a list of languages that you'd like to autosuggest.
 const languages = [
   {
-    name: 'C'
+    name: 'Hi'
   },
   {
-    name: 'C++'
+    name: 'Hello'
   },
   {
-    name: 'Elm'
+    name: 'I need help'
   },
+  {
+    name: 'Where can I find a map of the University for guiding myself from current location to my destination?'
+  },
+  {
+    name: 'How do I enrol in a course and register for class activities?'
+  },
+  {
+    name: 'How can I check majors and elective courses?'
+  },
+  {
+    name: 'How can I consult with my program advisor? how to contact them?'
+  },
+  {
+   name: 'I lost my student card? How can I get new card?' 
+  },
+  {
+    name:'Where is the library?'
+  },
+  {
+    name:'Is there any university doctor available for consulting my health?'
+  },
+  {
+    name: 'I cannot afford my university fees? Is there any scholarship or university help available?'
+  },
+  {
+    name: ' How do I apply for scholarships?'
+  },
+  {
+    name: 'How do I apply for an Opal Concession card and Transport Entitlement Card?'
+  },
+  {
+    name: 'What support services does the University offer for students?'
+  },
+  {
+    name: 'My classes finish when it is dark, are there any extra safety precautions I can take when heading home?'
+  },
+  {
+    name: 'How to arrange security shuttle pickup? '
+  },
+  {
+    name: 'How do I find out what events are happening on campus?'
+  },
+  {
+    name: 'How do I apply to waive my student visa application fee due to COVID-19?'
+  }
 
 ];
 
