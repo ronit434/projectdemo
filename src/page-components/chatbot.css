@@ -30,7 +30,7 @@ overflow-y: scroll;
     width: 100vw;
     background-color: rgba(49, 255, 93, 0.603);
     border-radius: 5px;
-    height: 3vh;
+    height: 5vh;
 }
 .chat-button:hover{
     background-color: rgba(0, 0, 0, 0.603);

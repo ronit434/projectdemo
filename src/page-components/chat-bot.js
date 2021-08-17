@@ -68,9 +68,10 @@ this.UserToBot = this.UserToBot.bind(this)
   }
 
   QA(question){
+
     switch (question) {
       case 'Hi':
-      case 'hi':
+      case 'hi ':
       case 'Hello':
       case 'hello':
       case 'Hey':
@@ -128,7 +129,7 @@ this.UserToBot = this.UserToBot.bind(this)
       case "doctor":
       case "consultant":
       case "hospital":
-      case "health ":
+      case "health":
       return "University doctors are in student services centre near commonwealth bank. You can either book an appointment or can check for walk-in appointments. Please bring your student card at the time of consultation. ";
       break;
       case 'I cannot afford my university fees? Is there any scholarship or university help available?':
@@ -142,11 +143,11 @@ this.UserToBot = this.UserToBot.bind(this)
       return 'Information on all available scholarships offered by the University of Newcastle for enabling, undergraduate and postgraduate course work students can be found on the Scholarships website.';
       break;
       case 'How do I apply for an Opal Concession card and Transport Entitlement Card?':
-      case "opal card ":
+      case "opal card":
       case "concession card":
       case "transport entitlement card":
       case "how":
-      case "apply":
+      // case "apply":
       return 'Opal Concession cards are only available directly via OPAL and cannot be purchased or collected from a retail outlet. https://transportnsw.info/tickets-opal/opal';
       break;
       case 'What support services does the University offer for students?':
@@ -178,7 +179,7 @@ this.UserToBot = this.UserToBot.bind(this)
       case "student visa":
       return 'The Department of Home Affairs (DHA) may consider waiving your visa application fee if you extend your student visa due to the impact of COVID-19. Please see criteria DHA have listed for consideration. If you meet the criteria, on application for your COE you can request the 1545 COVID-19 impacted student form. If you have already been issued your COE send an email to studentadvice@newcastle.edu.au.';
       break;
-         
+        
       default:
         return "Sorry I couldn't understand.";
         break;
