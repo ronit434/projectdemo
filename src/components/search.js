@@ -57,6 +57,154 @@ const languages = [
   },
   {
     name: 'How do I apply to waive my student visa application fee due to COVID-19?'
+  },
+  {
+    name: 'University room'
+  },
+  {
+    name: 'map'
+  },
+  {
+    name: 'location'
+  },
+  {
+    name: 'guide'
+  },
+  {
+    name: 'enrol'
+  },
+  {
+    name: 'enrolment'
+  },
+  {
+    name: 'timetable'
+  },
+  {
+    name: 'register'
+  },
+  {
+    name: 'classes'
+  },
+  {
+    name: 'major courses'
+  },
+  {
+    name: 'elective courses'
+  },
+  {
+    name: 'find major and elective courses'
+  },
+  {
+    name: 'program advisor'
+  },
+  {
+    name: 'program convenor'
+  },
+  {
+    name: 'contact'
+  },
+  {
+    name: 'meeting'
+  },
+  {
+    name: 'lost'
+  },
+  {
+    name: 'contact'
+  },
+  {
+    name: 'card'
+  },
+  {
+    name: 'new card'
+  },
+  {
+    name: 'new'
+  },
+  {
+    name: 'library'
+  }
+  ,
+  {
+    name: 'doctor'
+  }
+  ,
+  {
+    name: 'consultant'
+  }
+  ,
+  {
+    name: 'hospital'
+  }
+  ,
+  {
+    name: 'health'
+  },
+  {
+    name: 'fees'
+  },
+  {
+    name: 'scholarship'
+  },
+  {
+    name: 'hardship'
+  },
+  {
+    name: 'apply'
+  },
+  {
+    name: 'opal card'
+  },
+  {
+    name: 'concession card'
+  },
+  {
+    name: 'transport entitlement card'
+  },
+  {
+    name: 'how'
+  },
+  {
+    name: 'support'
+  },
+  {
+    name: 'university services'
+  },
+  {
+    name: 'security'
+  },
+  {
+    name: 'safety'
+  },
+  {
+    name: 'how security'
+  },
+  {
+    name: 'shuttle'
+  },
+  {
+    name: 'pickup'
+  },
+  {
+    name: 'event'
+  },
+  {
+    name: 'campus'
+  },
+  {
+    name: 'function'
+  },
+  {
+    name: 'visa'
+  },
+  {
+    name: 'apply'
+  },
+  {
+    name: 'covid19'
+  },
+  {
+    name: 'student visa'
   }
 
 ];
