@@ -181,7 +181,7 @@ this.UserToBot = this.UserToBot.bind(this)
       break;
         
       default:
-        return "Sorry I couldn't understand.";
+        return "Sorry I couldn't understand. Please select from the given questions by typing x ";
         break;
     }
 

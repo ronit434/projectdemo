@@ -213,7 +213,9 @@ const languages = [
 const getSuggestions = value => {
   const inputValue = value.trim().toLowerCase();
   const inputLength = inputValue.length;
-
+  if(inputValue == 'x' || inputValue =='X'){
+    return languages;
+  }
   return inputLength === 0 ? [] : languages.filter(lang =>
     lang.name.toLowerCase().slice(0, inputLength) === inputValue
   );
