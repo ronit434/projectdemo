@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import "./chatbot.css"
-import "../components/search"
-import Example from '../components/search';
+import "./search"
+import Example from './search';
 
 
 class ChatBot extends Component{
